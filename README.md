@@ -133,7 +133,7 @@ pip3 install -r requirements.txt
 
 6. Have a look at [Recommended configurations](#recommended-configurations) and [Custom configurations](#custom-configurations).
 
--->
+
 </br></br>
 
 
