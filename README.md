@@ -6,9 +6,8 @@
 
 
 
-A Python script that allows multiple users to interact with each other via text messaging.
+The application uses cnn for training new model for recognizing a face as well as train a new face followed by allowing user for access or use multiple function.
 
-Here are the screenshots of working example on an AWS Linux Instance.
 
 
 <!-- #`oh-my-zsh` with `powerlevel9k` theme and `powerline nerd-font + awesome-config` font with the `Solarized Dark` color theme. 
