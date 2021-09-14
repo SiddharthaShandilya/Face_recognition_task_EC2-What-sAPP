@@ -58,9 +58,6 @@ ________________________________________________________________________________
 [![forthebadge](https://forthebadge.com/images/badges/built-by-developers.svg)](http://forthebadge.com)   [![forthebadge](https://forthebadge.com/images/badges/made-with-python.svg)](http://forthebadge.com)      [![forthebadge](https://forthebadge.com/images/badges/60-percent-of-the-time-works-every-time.svg)](https://forthebadge.com)
 
 
-[![Gem Version](https://badge.fury.io/rb/colorls.svg)](https://badge.fury.io/rb/colorls)
-[![CI](https://github.com/athityakumar/colorls/actions/workflows/ruby.yml/badge.svg)](https://github.com/athityakumar/colorls/actions/workflows/ruby.yml)
-[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=shields)](http://makeapullrequest.com)
 
 A Python script that allows multiple users to interact with each other via text messaging.
 
@@ -118,27 +115,40 @@ Here are the screenshots of working example on an AWS Linux Instance.
 
 [(Back to top)](#table-of-contents)
 
-1. Install git (preferably, version >= 2.0) and python (preferably, version >=3.6 )
+1. Install git (preferably, version >= 2.0) and python (preferably, version >=3.6)
  [(windows)](https://www.maketecheasier.com/install-git-bash-on-windows/)
  For Linux :
- ```sudo yum instal git -y
+ ```bash
+    sudo yum instal git -y
     sudo yum install python -y
  ```
  
-3. Copy the github url from the repository : |``` https://github.com/SiddharthaShandilya/Face_recognition_task_EC2-What-sAPP.git ```|
-4. Select a Directory in local system and use 
-  ```  git clone https://github.com/SiddharthaShandilya/Face_recognition_task_EC2-What-sAPP.git            ```
+2. Copy the github url from the repository : 
 
-<!--    *Note for `git clone command`  Please make sure that you have proper internet connection. *
+ ```bash
+ https://github.com/SiddharthaShandilya/Face_recognition_task_EC2-What-sAPP.git
+ ```
 
-    *Note for `python` Please try to run the code in a seperate virtual environment.*  -->
+3. Select a Directory in local system and use 
 
-4. Enable tab completion for flags by entering following line to your shell configuration file (`~/.bashrc` or `~/.zshrc`) :
+  ```bash 
+  git clone https://github.com/SiddharthaShandilya/Face_recognition_task_EC2-What-sAPP.git           
+  ```
+
+    *Note for `git clone command`  Please make sure that you have proper internet connection. *
+
+    *Note for `python` Please try to anaconda for running the app.*  
+
+4. Create a seperate virtual environment to avoid conflict between python libraries :
     ```bash
-    source $(dirname $(gem which colorls))/tab_complete.sh
+    python3 -m venv new-env 
     ```
 
-5. Start using `colorls` :tada:
+5. Activate the virtual env: 👉 [(click Here)](https://www.programshelp.com/help/python/activate_virtual_environment_python_windows_10.html)
+6. Install all the libraries for the application.
+```bash
+pip3 install -r requirements.txt
+```
 
 6. Have a look at [Recommended configurations](#recommended-configurations) and [Custom configurations](#custom-configurations).
 
