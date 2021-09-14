@@ -30,7 +30,6 @@ The application uses cnn for training new model for recognizing a face as well a
 - [Contributing](#contributing)
 - [Future Scope](#future-scope)
 
-</br></br>
 
 # Usage
 
